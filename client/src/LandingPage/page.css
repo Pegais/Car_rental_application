@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( #e6f2ff, #80b3ff);
+    position: relative;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 80;
+    position: relative;
+}
+nav span{
+    width:200px;
+    margin-top: 10px;
+    cursor: pointer;
+   font-weight: bolder;
+   font-size: larger;
+   /* background-color: red; */
+}
+nav ul{
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+nav ul li{
+    list-style: none;
+    color: black;
+    font-size: large;
+    margin-bottom: 15px;
+    cursor: pointer;
+    
+}
+nav ul::after{
+    content: '';
+    width: 1px;
+    height: 130px;
+    background:red;
+    position: absolute;
+    top: 20px;
+    left: -10px;
+
+}
+.content{
+    max-width: 600px;
+    margin-top: 100px;
+    
+}
+.content h1{
+    font-size: larger;
+}
+.content button{
+    width: 200px;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    background: #ffff70;
+    box-shadow: 0 30px 6px rgba(0,0, 0, 0.16);
+    cursor: pointer;
+    margin-left: 30px;
+}
+.car-image{
+    width: 55%;
+    position: absolute;
+    right: 70px;
+    bottom: 60px;
+}

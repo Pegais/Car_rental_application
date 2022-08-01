@@ -1,0 +1,76 @@
+.login-container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ccddff; */
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUxFIg2GjfABufgFocFiRxFxKgMNkcgWc2Lg&usqp=CAU"); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    
+}
+.login-container .header{
+    font-weight: bolder;
+    font-size: larger;
+    align-content: center;
+}
+.login-container .login-form{
+    background-color: #e6eeff;
+    border-radius: 10px;
+    height: 450px;
+    width: 350px;
+    padding: 20px;
+    box-shadow: 12px 12px 2px 1px rgba(72, 77, 76, 0.2);
+    
+}
+.login-container .login-form:hover{
+  background-color: #ccfff5;
+}
+
+.login-form .login-email{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+
+.login-form .login-header{
+    display: flex;
+    justify-content: center;
+}
+.login-email div{
+    font-size: medium;
+    font-weight: 500;
+}
+.login-email input{
+    border-radius: 10px;
+}
+.login-form .login-password{
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.login-password div{
+    font-size: medium;
+    font-weight: 500;
+}
+.login-password input{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.login-btn {
+    display: flex;
+    justify-content: center;
+}
+.login-btn button{
+    border-radius: 9px;
+    background-color: lightblue;
+    font-weight: 800;
+}
+.login-footer form{
+    color:red;
+}

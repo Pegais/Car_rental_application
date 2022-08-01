@@ -1,0 +1,48 @@
+.admin{
+    height:10vh ;
+    background-color: #9999ff;
+}
+.admin h3{
+    margin: 0;
+}
+.admin>button{
+    margin-left: 40px;
+   margin-top: 10px;
+}
+
+.admin-body{
+    /* background-color: red; */
+    height: 90vh;
+    display: flex;
+    flex-direction: wrap;
+    box-sizing: border-box;
+    
+
+}
+.admin-body div{
+      /* background-color: blue; */
+      height: 200px;
+      width: 200px;
+      margin: 30px;
+      margin-top: 60px;
+      padding: 10px;
+      border-radius: 50%;
+}
+.admin-body .admin-img h4{
+/* background-color: red; */
+width: 150px;
+text-align: center;
+}
+.admin-img {
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-img img{
+    /* background-color: lightcyan
+     */
+     width: 60%;
+     height: 60%;
+     border-radius: 50%;
+}

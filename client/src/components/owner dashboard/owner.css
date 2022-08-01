@@ -1,0 +1,41 @@
+.owner-header{
+    background-color: lightblue;
+    height: 10vh;
+    width: 100%;
+}
+.owner-header h3{
+    margin: 0;
+    padding: 2px;
+    font-weight: bold;
+    font-size: larger;
+}
+.owner-header button{
+    margin: 10px;
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 4px;
+    font-size: medium;
+
+}
+.owner-body{
+    /* background-color: red; */
+    height: 90vh;
+    
+   
+}
+.owner-header span {
+    font-weight: bolder;
+    font-size: larger;
+}
+.owner{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-left: 10px;
+}
+.owner-body .history{
+    background-color: lightcyan;
+    height: 400px;
+    width: 800px;
+    margin: 50px;
+}

@@ -54,7 +54,7 @@ function Signup() {
         </div>
         <div className='login-password'>
           <div>Role</div>
-          <input type="text" placeholder='User Role' onChange={(e) => setRole(e.target.value)} value={role}></input>
+          <input type="text" placeholder='UserRole as user/admin/owner specify' onChange={(e) => setRole(e.target.value)} value={role}></input>
         </div>
         <div className='login-btn'>
           <button type='submit' onClick={handleClick}>Register</button>

@@ -21,7 +21,9 @@ const {hassedPassFunc} = require('../utils/hasspassword.js')
 
 // create new user coming to webPage;
 LoginRouter.post('/', async (req, res) => {
-    const { name, email, password,role } = req.body;
+    let { name, email, password } = req.body;
+    let role = req.body.role;
+    role = role.toLowerCase();
     let hasedPassword = await hassedPassFunc(password)
     console.log(hasedPassword)
     try {
